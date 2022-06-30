@@ -12,3 +12,33 @@ print(days)
 
 days = ["Mon","Tue","Wed","Thur","Fri"]
 print(days)
+
+print("Mon" in days)
+print(days[3])
+print(len(days))
+
+# mutable 값을 바꿀 수 있음 / immutable 값을 바꿀 수 없음
+# list는 mutable
+
+days.append("Sat")
+print(days)
+
+days.reverse()
+print(days)
+
+days = ("Mon","Tue","Wed","Thur","Fri")
+print(type(days))
+
+# dictionary
+JS = {
+  "name" : "JS",
+  "age" : 27,
+  "korean" : True,
+  "fav_food" : ["Pizza","Chicken"]
+}
+
+print(JS["name"])
+
+print(JS)
+JS["bool"] = True
+print(JS)
