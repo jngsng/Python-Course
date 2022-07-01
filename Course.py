@@ -42,3 +42,18 @@ print(JS["name"])
 print(JS)
 JS["bool"] = True
 print(JS)
+
+# Function
+
+print(len("asdfasdfsdf"))
+
+age = "27"
+print(type(age))
+n_age = int(age)
+print(type(n_age))
+
+def say_hello():
+  print("hello")
+  print("bye")
+
+say_hello()
