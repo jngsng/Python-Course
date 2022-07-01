@@ -56,4 +56,14 @@ def say_hello():
   print("hello")
   print("bye")
 
-say_hello()
+def hello(who):
+  print("hello",who)
+
+def plus(a,b):
+  print(a+b)
+
+def minus(a,b=0):
+  print(a-b)
+
+minus(5,2)
+
