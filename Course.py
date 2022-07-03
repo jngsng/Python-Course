@@ -130,3 +130,18 @@ def age_check(age):
 
 age_check(20)
 
+days = ("Mon","Tue","Wed","Thu","Fri")
+
+for x in days:
+  if x == "Wed":
+    break
+  else:
+    print(x)
+
+from math import ceil
+
+print(ceil(1.2))
+
+from C_Plus import plus, minus
+
+print(plus(10,11), minus(10,11))
