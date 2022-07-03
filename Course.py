@@ -91,3 +91,20 @@ def say_hello1(name,age):
 
 hello1 = say_hello1("JSkim",27)
 print(hello1)
+
+hello2 = say_hello1(age = 27, name="Kim")
+print(hello2)
+
+# Calculator
+# plus, minus, times(곱셈), division(나눗셈), negation??, power(제곱), remainder???
+
+def calculator(a,b):
+  
+  print(a+b)
+  print(a-b)
+  print(a*b)
+  print(a/b)
+  print(pow(a,b))
+  return
+
+calculator(10,10)
