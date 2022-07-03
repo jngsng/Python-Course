@@ -77,3 +77,17 @@ p_result = p_plus(2,3)
 r_result = r_plus(2,3)
 
 print(p_result,r_result)
+
+# Positional Argument, keyword argument
+
+def plus1(a,b):
+  return a-b
+  
+result = plus1(b=30, a=1)
+print(result)
+
+def say_hello1(name,age):
+  return f"hello {name}, you are {age} years old"
+
+hello1 = say_hello1("JSkim",27)
+print(hello1)
