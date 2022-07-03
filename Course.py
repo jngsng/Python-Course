@@ -109,3 +109,12 @@ def calculator(a,b):
 
 calculator(10,10)
 
+# if, else
+
+def plus2(a,b):
+  if type(b) is int or type(b) is float:
+    return a+b
+  else:
+    return None
+
+print(plus2(10,10.2))
