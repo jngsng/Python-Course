@@ -118,3 +118,15 @@ def plus2(a,b):
     return None
 
 print(plus2(10,10.2))
+
+def age_check(age):
+  print(f"you are {age}")
+  if age > 20:
+    print("you can drink")
+  elif age == 20:
+    print("Welcome!")
+  else:
+    print("you can not drink")
+
+age_check(20)
+
